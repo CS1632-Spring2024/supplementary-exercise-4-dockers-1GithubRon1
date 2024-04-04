@@ -40,7 +40,7 @@ jobs:
       - name: Launch Web Service
         run: docker-compose up -d
 
-      -name: Wait of Web Service
+      - name: Wait of Web Service
         run: sh wait-for-server.sh 
 
       - name: Run Selenium Tests

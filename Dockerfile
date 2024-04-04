@@ -1,5 +1,5 @@
 # specify base image
-FROM adoptopenjdk/openjdk11:slim
+FROM adoptopenjdk/openjdk11:slim  d
 
 # install Maven on top of base image
 RUN apt-get update && apt-get install -y --no-install-recommends maven

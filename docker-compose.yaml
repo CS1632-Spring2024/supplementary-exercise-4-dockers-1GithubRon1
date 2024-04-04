@@ -1,4 +1,4 @@
-version: '3' d
+version: '3'
 
 services:
   server:
